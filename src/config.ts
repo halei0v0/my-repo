@@ -33,7 +33,7 @@ export const siteConfig: SiteConfig = {
 
 	
 	bangumi: {
-		userId: "your-bangumi-id", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
+		userId: "1162705", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
 	},
 
 	anime: {
@@ -56,6 +56,9 @@ export const siteConfig: SiteConfig = {
 				//"/assets/desktop-banner/d8.webp",
 				"/assets/desktop-banner/cs1.png",
 				"/assets/desktop-banner/cs2.png",
+				"/assets/desktop-banner/cs3.png",
+				"/assets/desktop-banner/cs4.png",
+				"/assets/desktop-banner/cs5.png",
 			], // 桌面横幅图片
 			mobile: [
 				"/assets/mobile-banner/m1.webp",
@@ -76,7 +79,7 @@ export const siteConfig: SiteConfig = {
 		carousel: {
 			enable: true, // 为 true 时：为多张图片启用轮播。为 false 时：从数组中随机显示一张图片
 
-			interval: 16, // 轮播间隔时间（秒）
+			interval: 2, // 轮播间隔时间（秒）
 		},
 
 		// PicFlow API支持(智能图片API)
